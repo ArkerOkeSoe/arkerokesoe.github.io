@@ -63,28 +63,16 @@
       </ul>
     </section>
 
-    <section aria-labelledby="research">
-      <h2 id="research">Research Experience</h2>
-      <ul class="research">
+    <section aria-labelledby="talks">
+      <h2 id="talks">Talks</h2>
+      <ul class="talks">
         <li>
-          <p class="dated"><span class="medium">Cornell University, Supervised Research</span><span class="date">2026.01 – Present</span></p>
-          <p class="detail">Sum-free self-inverse sets over finite fields, with Dr. Victor Souza</p>
+          <p class="dated"><span class="medium">Extremal Graph Theory and the Zarankiewicz Problem.</span><time datetime="2026-10">October 2026</time></p>
+          <p class="detail">Cornell University Mathematics Club (invited talk).</p>
         </li>
         <li>
-          <p class="dated"><span class="medium">Georgia Institute of Technology, Mathematics REU</span><span class="date">2026.06 – 2026.07</span></p>
-          <p class="detail">Deck reconstruction for restricted word classes, with Professor Xiaoyu He</p>
-        </li>
-        <li>
-          <p class="dated"><span class="medium">Cornell University, Supervised Research</span><span class="date">2025.05 – 2025.10</span></p>
-          <p class="detail">Eliciting Beliefs in LLMs</p>
-        </li>
-        <li>
-          <p class="dated"><span class="medium">Cornell University, Supervised Research</span><span class="date">2025.01 – 2025.05</span></p>
-          <p class="detail">Graph-theoretic approaches for Fox's Conjecture on Alternating Knots</p>
-        </li>
-        <li>
-          <p class="dated"><span class="medium">Williams College, Polymath Jr. Research Program</span><span class="date">2024.06 – 2024.08</span></p>
-          <p class="detail"><i>L</i><sup>p</sup> regularity of Toeplitz Operators on the Symmetrized Bidisk</p>
+          <p class="dated"><span class="medium">Deck Reconstruction for Restricted Word Classes.</span><time datetime="2026-07">July 2026</time></p>
+          <p class="detail">Georgia Institute of Technology, Mathematics REU end-of-program talk.</p>
         </li>
       </ul>
     </section>
@@ -149,74 +137,48 @@
             <circle cx="28.04" cy="103.51" r="5.2"/>
           </g>
         </g>
-        <g font-family="'CMU Serif', 'Times New Roman', serif" font-size="13" font-style="italic" text-anchor="middle">
-          <text x="100" y="13" fill="#306c86">A</text>
-          <text x="181" y="152" fill="#ac5347">B</text>
-          <text x="19" y="152" fill="#987525">C</text>
-        </g>
       </svg>
     </figure>
     <figure class="figure plabic">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" class="plabic-figure" role="img" tabindex="0" aria-labelledby="plabic-title" aria-describedby="plabic-description">
         <title id="plabic-title">A plabic graph in a disk</title>
-        <desc id="plabic-description">Six numbered boundary vertices lead to a planar network of alternating solid and open vertices. Three quadrilateral faces share edges with a central hexagon.</desc>
+        <desc id="plabic-description">Six alternating solid and open vertices form a hexagon. A single spoke joins each vertex to the boundary of the disk.</desc>
         <style>
           .plabic-figure:focus-visible { outline: 1px dashed #ac9ab7; outline-offset: 2px; }
-          .plabic-figure:is(:hover, :focus-visible) :is(#plabic-interior-spokes, #plabic-outer-pairs, #plabic-boundary-spokes, #plabic-boundary) { opacity: .32; }
-          .plabic-figure:is(:hover, :focus-visible) :is(#plabic-solid, #plabic-open) circle:nth-child(n+4) { opacity: .45; }
-          .plabic-figure:is(:hover, :focus-visible) #plabic-hexagon { stroke-width: 2.6; }
-          .plabic-figure:is(:hover, :focus-visible) polygon { fill-opacity: .17; }
+          .plabic-figure:is(:hover, :focus-visible) :is(#plabic-spokes, #plabic-boundary) { opacity: .45; }
+          .plabic-figure:is(:hover, :focus-visible) #plabic-hexagon { stroke-width: 2.6; fill-opacity: .12; }
         </style>
-        <circle cx="100" cy="100" r="76" fill="none" stroke="#9878ae" stroke-width="1.1"/>
-
-        <polygon points="100,69 126.85,84.5 126.85,115.5 100,131 73.15,115.5 73.15,84.5" fill="#8e64a6" fill-opacity=".075"/>
+        <circle cx="100" cy="100" r="84" fill="none" stroke="#9878ae" stroke-width="1.2" stroke-opacity=".6" stroke-dasharray="5 4"/>
         <g fill="none" stroke="#78538e" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
-          <!-- Edge classes are kept separate so the embedding is easy to inspect. -->
-          <path id="plabic-hexagon" d="M100 69 L126.85 84.5 L126.85 115.5 L100 131 L73.15 115.5 L73.15 84.5 Z"/>
-          <path id="plabic-interior-spokes" d="M100 69 L100 46 M126.85 84.5 L146.77 73 M126.85 115.5 L146.77 127 M100 131 L100 154 M73.15 115.5 L53.23 127 M73.15 84.5 L53.23 73"/>
-          <path id="plabic-outer-pairs" d="M100 46 L146.77 73 M146.77 127 L100 154 M53.23 127 L53.23 73"/>
-          <path id="plabic-boundary-spokes" d="M100 46 L100 24 M146.77 73 L165.82 62 M146.77 127 L165.82 138 M100 154 L100 176 M53.23 127 L34.18 138 M53.23 73 L34.18 62"/>
+          <polygon id="plabic-hexagon" points="100,56 138.11,78 138.11,122 100,144 61.89,122 61.89,78" fill="#8e64a6" fill-opacity=".05"/>
+          <path id="plabic-spokes" d="M100 56 L100 16 M138.11 78 L172.75 58 M138.11 122 L172.75 142 M100 144 L100 184 M61.89 122 L27.25 142 M61.89 78 L27.25 58"/>
         </g>
         <g stroke="#704988" stroke-width="1.8">
-          <g id="plabic-solid" fill="#704988">
-            <circle cx="100" cy="69" r="3.9"/>
-            <circle cx="126.85" cy="115.5" r="3.9"/>
-            <circle cx="73.15" cy="115.5" r="3.9"/>
-            <circle cx="146.77" cy="73" r="3.9"/>
-            <circle cx="100" cy="154" r="3.9"/>
-            <circle cx="53.23" cy="73" r="3.9"/>
+          <g fill="#704988">
+            <circle cx="100" cy="56" r="4.8"/>
+            <circle cx="138.11" cy="122" r="4.8"/>
+            <circle cx="61.89" cy="122" r="4.8"/>
           </g>
-          <g id="plabic-open" fill="white">
-            <circle cx="126.85" cy="84.5" r="3.9"/>
-            <circle cx="100" cy="131" r="3.9"/>
-            <circle cx="73.15" cy="84.5" r="3.9"/>
-            <circle cx="100" cy="46" r="3.9"/>
-            <circle cx="146.77" cy="127" r="3.9"/>
-            <circle cx="53.23" cy="127" r="3.9"/>
+          <g fill="white">
+            <circle cx="138.11" cy="78" r="4.8"/>
+            <circle cx="100" cy="144" r="4.8"/>
+            <circle cx="61.89" cy="78" r="4.8"/>
           </g>
         </g>
         <g id="plabic-boundary" fill="#704988">
-          <circle cx="100" cy="24" r="2.8"/>
-          <circle cx="165.82" cy="62" r="2.8"/>
-          <circle cx="165.82" cy="138" r="2.8"/>
-          <circle cx="100" cy="176" r="2.8"/>
-          <circle cx="34.18" cy="138" r="2.8"/>
-          <circle cx="34.18" cy="62" r="2.8"/>
-        </g>
-        <g font-family="'CMU Serif', 'Times New Roman', serif" font-size="13" text-anchor="middle" fill="#705b7b">
-          <text x="100" y="15">1</text>
-          <text x="178" y="60">2</text>
-          <text x="178" y="149">3</text>
-          <text x="100" y="193">4</text>
-          <text x="22" y="149">5</text>
-          <text x="22" y="60">6</text>
+          <circle cx="100" cy="16" r="3"/>
+          <circle cx="172.75" cy="58" r="3"/>
+          <circle cx="172.75" cy="142" r="3"/>
+          <circle cx="100" cy="184" r="3"/>
+          <circle cx="27.25" cy="142" r="3"/>
+          <circle cx="27.25" cy="58" r="3"/>
         </g>
       </svg>
     </figure>
     <figure class="figure ramsey">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 195" class="ramsey-figure" role="img" tabindex="0" aria-labelledby="ramsey-title" aria-describedby="ramsey-description">
         <title id="ramsey-title">A two-coloring of the complete graph K₅</title>
-        <desc id="ramsey-description">Five vertices labeled zero through four. The blue edges form a pentagon and the gold edges form a star. Both color classes are five-cycles.</desc>
+        <desc id="ramsey-description">The blue edges form a pentagon and the gold edges form a star on the same five vertices. Both color classes are five-cycles.</desc>
         <style>
           .ramsey-figure:focus-visible { outline: 1px dashed #9baeb4; outline-offset: 2px; }
           .ramsey-figure:is(:hover, :focus-visible) #ramsey-distance-one { opacity: .24; }
@@ -233,13 +195,6 @@
           <circle cx="142.91" cy="164.06" r="5.4"/>
           <circle cx="57.09" cy="164.06" r="5.4"/>
           <circle cx="30.57" cy="82.44" r="5.4"/>
-        </g>
-        <g font-family="'CMU Serif', 'Times New Roman', serif" font-size="13" text-anchor="middle" fill="#5f696c">
-          <text x="100" y="19">0</text>
-          <text x="183" y="82">1</text>
-          <text x="152" y="181">2</text>
-          <text x="48" y="181">3</text>
-          <text x="17" y="82">4</text>
         </g>
       </svg>
     </figure>
