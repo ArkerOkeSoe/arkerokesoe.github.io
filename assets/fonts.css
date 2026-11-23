@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "CMU Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/cmunrm.woff") format("woff");
+}
+
+@font-face {
+  font-family: "CMU Serif";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./fonts/cmunti.woff") format("woff");
+}

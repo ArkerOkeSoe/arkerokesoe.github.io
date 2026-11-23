@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found - Arker Oke Soe</title>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #f7f7f7; color: #211f22; text-align: center; font-family: "CMU Serif", Georgia, serif; }
+    h1 { margin: 0 0 1rem; font: 700 2.25rem/1.1 Helvetica, Arial, sans-serif; }
+    p { margin: 0 0 1rem; font-size: 1.25rem; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>404</h1>
+    <p>Oops! Page not found</p>
+    <a id="home" href="/">Return to Home</a>
+  </main>
+  <script>
+    // Pages serves this document at the missing URL, which may be nested.
+    const root = location.hostname.endsWith(".github.io")
+      ? "/" + location.pathname.split("/")[1] + "/"
+      : "/";
+    document.getElementById("home").href = root;
+    const fonts = document.createElement("link");
+    fonts.rel = "stylesheet";
+    fonts.href = root + "assets/fonts.css";
+    document.head.append(fonts);
+  </script>
+</body>
+</html>
