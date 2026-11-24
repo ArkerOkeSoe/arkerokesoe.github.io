@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 175" fill="none" role="img" aria-labelledby="incidence-title incidence-desc">
+  <title id="incidence-title">Incidences of the Fano plane</title>
+  <desc id="incidence-desc">Seven points form the upper row and seven lines form the lower row. Each edge joins a point to a line containing it. Three edges from the selected point are highlighted.</desc>
+  <defs>
+    <!-- Line j contains points j, j+1, and j+3, with indices taken modulo seven. -->
+    <path id="fan-1" d="M250 21 L27 130 M250 21 L250 154 M250 21 L473 130"/>
+    <path id="fan-2" d="M325 24 L175 151 M325 24 L250 154 M325 24 L325 151"/>
+    <path id="fan-3" d="M399 32 L27 130 M399 32 L101 143 M399 32 L175 151"/>
+    <path id="fan-4" d="M473 45 L101 143 M473 45 L250 154 M473 45 L399 143"/>
+    <path id="fan-5" d="M27 45 L175 151 M27 45 L399 143 M27 45 L473 130"/>
+    <path id="fan-6" d="M101 32 L101 143 M101 32 L325 151 M101 32 L473 130"/>
+    <path id="fan-7" d="M175 24 L27 130 M175 24 L325 151 M175 24 L399 143"/>
+    <g id="selected-point">
+      <circle r="9.5" fill="#fffcf4" stroke="#388080" stroke-width="1"/>
+      <circle r="6" fill="#286669"/>
+    </g>
+    <g id="selected-line">
+      <circle r="6.2" fill="#f0d7a0" stroke="#946c2d" stroke-width="1.75"/>
+      <circle r="2" fill="#906b30"/>
+    </g>
+    <circle id="point" r="4.4" fill="#73918c" stroke="#fffdf6" stroke-width="1.2"/>
+    <circle id="line" r="4.3" fill="#fffaf0" stroke="#b49d79" stroke-width="1.3"/>
+    <g id="incidence-focus-1">
+      <use href="#fan-1" stroke="#fffcf4" stroke-width="5.4"/>
+      <use href="#fan-1" stroke="#276d71" stroke-width="2.35"/>
+      <use href="#selected-point" x="250" y="21"/>
+      <use href="#selected-line" x="27" y="130"/>
+      <use href="#selected-line" x="250" y="154"/>
+      <use href="#selected-line" x="473" y="130"/>
+    </g>
+    <g id="incidence-focus-2">
+      <use href="#fan-2" stroke="#fffcf4" stroke-width="5.4"/>
+      <use href="#fan-2" stroke="#276d71" stroke-width="2.35"/>
+      <use href="#selected-point" x="325" y="24"/>
+      <use href="#selected-line" x="175" y="151"/>
+      <use href="#selected-line" x="250" y="154"/>
+      <use href="#selected-line" x="325" y="151"/>
+    </g>
+    <g id="incidence-focus-3">
+      <use href="#fan-3" stroke="#fffcf4" stroke-width="5.4"/>
+      <use href="#fan-3" stroke="#276d71" stroke-width="2.35"/>
+      <use href="#selected-point" x="399" y="32"/>
+      <use href="#selected-line" x="27" y="130"/>
+      <use href="#selected-line" x="101" y="143"/>
+      <use href="#selected-line" x="175" y="151"/>
+    </g>
+    <g id="incidence-focus-4">
+      <use href="#fan-4" stroke="#fffcf4" stroke-width="5.4"/>
+      <use href="#fan-4" stroke="#276d71" stroke-width="2.35"/>
+      <use href="#selected-point" x="473" y="45"/>
+      <use href="#selected-line" x="101" y="143"/>
+      <use href="#selected-line" x="250" y="154"/>
+      <use href="#selected-line" x="399" y="143"/>
+    </g>
+    <g id="incidence-focus-5">
+      <use href="#fan-5" stroke="#fffcf4" stroke-width="5.4"/>
+      <use href="#fan-5" stroke="#276d71" stroke-width="2.35"/>
+      <use href="#selected-point" x="27" y="45"/>
+      <use href="#selected-line" x="175" y="151"/>
+      <use href="#selected-line" x="399" y="143"/>
+      <use href="#selected-line" x="473" y="130"/>
+    </g>
+    <g id="incidence-focus-6">
+      <use href="#fan-6" stroke="#fffcf4" stroke-width="5.4"/>
+      <use href="#fan-6" stroke="#276d71" stroke-width="2.35"/>
+      <use href="#selected-point" x="101" y="32"/>
+      <use href="#selected-line" x="101" y="143"/>
+      <use href="#selected-line" x="325" y="151"/>
+      <use href="#selected-line" x="473" y="130"/>
+    </g>
+    <g id="incidence-focus-7">
+      <use href="#fan-7" stroke="#fffcf4" stroke-width="5.4"/>
+      <use href="#fan-7" stroke="#276d71" stroke-width="2.35"/>
+      <use href="#selected-point" x="175" y="24"/>
+      <use href="#selected-line" x="27" y="130"/>
+      <use href="#selected-line" x="325" y="151"/>
+      <use href="#selected-line" x="399" y="143"/>
+    </g>
+  </defs>
+
+  <g id="incidence-base" fill="none">
+    <g stroke="#b3bdb3" stroke-width="1.05" stroke-linecap="round">
+      <use href="#fan-1"/>
+      <use href="#fan-2"/>
+      <use href="#fan-3"/>
+      <use href="#fan-4"/>
+      <use href="#fan-5"/>
+      <use href="#fan-6"/>
+      <use href="#fan-7"/>
+    </g>
+    <g>
+      <use href="#point" x="250" y="21"/>
+      <use href="#point" x="325" y="24"/>
+      <use href="#point" x="399" y="32"/>
+      <use href="#point" x="473" y="45"/>
+      <use href="#point" x="27" y="45"/>
+      <use href="#point" x="101" y="32"/>
+      <use href="#point" x="175" y="24"/>
+      <use href="#line" x="250" y="154"/>
+      <use href="#line" x="175" y="151"/>
+      <use href="#line" x="101" y="143"/>
+      <use href="#line" x="399" y="143"/>
+      <use href="#line" x="473" y="130"/>
+      <use href="#line" x="325" y="151"/>
+      <use href="#line" x="27" y="130"/>
+    </g>
+  </g>
+  <use href="#incidence-focus-1"/>
+</svg>

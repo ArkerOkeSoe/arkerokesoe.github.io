@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="330" viewBox="0 0 520 330" role="img" aria-labelledby="field-title field-desc">
+  <title id="field-title">A trip through a plabic graph</title>
+  <desc id="field-desc">Five hexagonal faces share edges inside a disk. Solid plum and open vertices alternate. A teal path follows alternating turns between two boundary vertices.</desc>
+  <defs>
+    <pattern id="face-hatch" width="5.5" height="5.5" patternUnits="userSpaceOnUse" patternTransform="rotate(32)">
+      <path d="M0 0 V5.5" fill="none" stroke="#927640" stroke-opacity=".3" stroke-width=".9"/>
+    </pattern>
+  </defs>
+
+  <!-- A dashed rim marks the disk; the small circles on it are boundary vertices. -->
+  <ellipse cx="260" cy="165" rx="222" ry="141" fill="none" stroke="#9f8ba9" stroke-opacity=".9" stroke-width="1.25" stroke-dasharray="2 4.5"/>
+  <g stroke="none">
+    <polygon points="147,99 199,111 209,162 165,188 115,177 105,130" fill="#c7acd5" fill-opacity=".43"/>
+    <polygon points="237,82 293,106 300,146 262,175 209,162 199,111" fill="#b69bc8" fill-opacity=".57"/>
+    <polygon points="339,77 390,92 397,137 354,168 300,146 293,106" fill="#e3b8c4" fill-opacity=".46"/>
+    <polygon points="209,162 262,175 273,222 228,250 177,230 165,188" fill="#e4c78b" fill-opacity=".58"/>
+    <polygon points="300,146 354,168 365,211 322,237 273,222 262,175" fill="#a6cbbf" fill-opacity=".4"/>
+    <polygon points="209,162 262,175 273,222 228,250 177,230 165,188" fill="url(#face-hatch)"/>
+  </g>
+
+  <g fill="none" stroke="#654675" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke-width="2.2" d="M147 99 L199 111 M209 162 L199 111 M115 177 L105 130 M105 130 L147 99 M237 82 L293 106 M300 146 L293 106"/>
+    <path stroke-width="2.2" d="M199 111 L237 82 M339 77 L390 92 M390 92 L397 137 M293 106 L339 77 M273 222 L262 175 M273 222 L228 250"/>
+    <path stroke-width="2.2" d="M228 250 L177 230 M177 230 L165 188 M354 168 L365 211 M365 211 L322 237 M322 237 L273 222"/>
+    <path stroke-width="1.85" d="M147 99 Q148 68 152.4 41.7 M105 130 Q76 125 48.9 121.4 M237 82 Q236 51 244.5 24.3 M339 77 Q349 58 353.8 37.2 M390 92 Q415 89 437.3 80.1"/>
+    <path stroke-width="1.85" d="M228 250 Q228 277 225.3 304.3 M177 230 Q149 250 117.3 273 M365 211 Q413 218 456 231.2 M322 237 Q333 267 353.8 292.8"/>
+  </g>
+
+  <!-- The highlighted trip turns right at solid vertices and left at open ones. -->
+  <path d="M47.7 206.2 Q78 188 115 177 L165 188 L209 162 L262 175 L300 146 L354 168 L397 137 Q438 139 480.3 147.8"
+        fill="none" stroke="#357d76" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <g fill="#624571" stroke="#4d355c" stroke-width="1.25">
+    <circle cx="147" cy="99" r="5.35"/>
+    <circle cx="209" cy="162" r="5.35"/>
+    <circle cx="115" cy="177" r="5.35"/>
+    <circle cx="237" cy="82" r="5.35"/>
+    <circle cx="300" cy="146" r="5.35"/>
+    <circle cx="339" cy="77" r="5.35"/>
+    <circle cx="397" cy="137" r="5.35"/>
+    <circle cx="273" cy="222" r="5.35"/>
+    <circle cx="177" cy="230" r="5.35"/>
+    <circle cx="365" cy="211" r="5.35"/>
+  </g>
+  <g fill="#fffcf9" stroke="#694c78" stroke-width="2.05">
+    <circle cx="199" cy="111" r="5.1"/>
+    <circle cx="165" cy="188" r="5.1"/>
+    <circle cx="105" cy="130" r="5.1"/>
+    <circle cx="293" cy="106" r="5.1"/>
+    <circle cx="262" cy="175" r="5.1"/>
+    <circle cx="390" cy="92" r="5.1"/>
+    <circle cx="354" cy="168" r="5.1"/>
+    <circle cx="228" cy="250" r="5.1"/>
+    <circle cx="322" cy="237" r="5.1"/>
+  </g>
+  <g fill="#796484" stroke="#f7f2f7" stroke-width="1.35">
+    <circle cx="152.4" cy="41.7" r="3.7"/>
+    <circle cx="48.9" cy="121.4" r="3.7"/>
+    <circle cx="244.5" cy="24.3" r="3.7"/>
+    <circle cx="353.8" cy="37.2" r="3.7"/>
+    <circle cx="437.3" cy="80.1" r="3.7"/>
+    <circle cx="225.3" cy="304.3" r="3.7"/>
+    <circle cx="117.3" cy="273" r="3.7"/>
+    <circle cx="456" cy="231.2" r="3.7"/>
+    <circle cx="353.8" cy="292.8" r="3.7"/>
+  </g>
+  <g fill="#bad6ce" stroke="#357d76" stroke-width="1.65">
+    <circle cx="47.7" cy="206.2" r="4.25"/>
+    <circle cx="480.3" cy="147.8" r="4.25"/>
+  </g>
+</svg>
