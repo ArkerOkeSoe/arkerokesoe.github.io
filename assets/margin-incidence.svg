@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 208" role="img"
+     aria-labelledby="fano-title fano-desc">
+  <title id="fano-title">The Fano plane</title>
+  <desc id="fano-desc">Seven points lie on seven triples, drawn as the three sides and three medians of an equilateral triangle and its inscribed circle.</desc>
+
+  <g transform="rotate(-5 110 122)" stroke-linecap="round" stroke-linejoin="round">
+    <path id="triangle" d="M110 18 200.066642 174 H19.933358 Z"
+          fill="#609392" fill-opacity=".055" stroke="#37797d" stroke-width="2.5"/>
+    <circle cx="110" cy="122" r="52" fill="#e7b395" fill-opacity=".09"/>
+
+    <g id="medians" fill="none" stroke="#b48e4a" stroke-width="1.75">
+      <path d="M110 18 V174"/>
+      <path d="M200.066642 174 64.966679 96"/>
+      <path d="M19.933358 174 155.033321 96"/>
+    </g>
+    <circle id="seventh-line" cx="110" cy="122" r="52" fill="none"
+            stroke="#bd756a" stroke-width="2.6"/>
+
+    <g id="corner-points" fill="#31757b" stroke="white" stroke-width="1.25">
+      <circle cx="110" cy="18" r="5.6"/>
+      <circle cx="200.066642" cy="174" r="5.6"/>
+      <circle cx="19.933358" cy="174" r="5.6"/>
+    </g>
+    <g id="midpoints" fill="#fffcf7" stroke="#a75e55" stroke-width="2.15">
+      <circle cx="110" cy="174" r="4.45"/>
+      <circle cx="64.966679" cy="96" r="4.45"/>
+      <circle cx="155.033321" cy="96" r="4.45"/>
+    </g>
+    <circle id="center-point" cx="110" cy="122" r="4.9" fill="#ad823c" stroke="#fffdf8" stroke-width="1.4"/>
+  </g>
+</svg>

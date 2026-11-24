@@ -14,132 +14,81 @@
   <link rel="icon" href="./assets/favicon.png" type="image/png">
   <link rel="stylesheet" href="./assets/fonts.css">
   <link rel="stylesheet" href="./style.css">
-  <script src="./assets/extremal.js" defer></script>
 </head>
-<body id="top">
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="masthead">
-    <div class="wrap masthead-inner">
-      <a class="wordmark" href="#top" aria-label="Arker Oke Soe, home">aos</a>
-      <nav aria-label="Main navigation">
-        <a href="#publications">Publications</a>
-        <a href="#talks">Talks</a>
-        <a href="#contact">Contact</a>
-        <a class="cv-link" href="./cv/">My CV</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main" class="wrap">
-    <section class="hero" aria-labelledby="name" id="about">
-      <div class="introduction">
-        <p class="affiliation"><span aria-hidden="true"></span>Cornell University <b aria-hidden="true">/</b> Mathematics</p>
-        <h1 id="name">Arker Oke Soe</h1>
-        <p class="lead">My research interests lie in <em>extremal graph theory</em>, additive combinatorics, and algebraic combinatorics.</p>
-        <div class="profile">
-          <img src="./assets/portrait.jpg" width="64" height="80" alt="Arker Oke Soe">
-          <div>
-            <p>B.A. candidate in Mathematics, expected May 2027.</p>
-            <p>My major supervisor is <a href="https://pi.math.cornell.edu/~karola/">Professor Karola Mészáros</a>.</p>
-          </div>
-        </div>
+<body>
+  <main class="paper">
+    <header class="profile">
+      <img class="portrait" src="./assets/portrait.jpg" width="128" height="160" alt="Arker Oke Soe">
+      <div>
+        <h1>Arker Oke Soe</h1>
+        <p class="secondary">My name can also be spelled as Arkar Oak Soe, or <span lang="my">အာကာအုပ်စိုး</span> in Burmese.<br>
+          <a href="./cv/">My CV</a></p>
       </div>
+    </header>
 
-      <figure class="plabic-plate">
-        <div class="drawing-surface">
-          <img src="./assets/field-diagram.svg" width="520" height="330" alt="A teal path winds through five adjoining hexagonal faces in a planar network of alternating solid and open vertices.">
-        </div>
-        <figcaption>
-          <h2>A trip through a plabic graph</h2>
-          <p>Follow the teal path from left to right. At each filled vertex it turns right, and at each open vertex it turns left.</p>
-        </figcaption>
-      </figure>
+    <section aria-labelledby="about">
+      <h2 id="about">About</h2>
+      <p>I am an undergraduate math major at Cornell University, and my major supervisor is
+        <a href="https://pi.math.cornell.edu/~karola/" target="_blank" rel="noopener noreferrer">Professor Karola Mészáros</a>. I expect to graduate in May 2027.
+        My research interests lie in <span class="medium">extremal graph theory</span>,
+        <span class="medium">additive combinatorics</span>, and <span class="medium">algebraic combinatorics</span>.</p>
     </section>
 
-    <section class="publications ruled" aria-labelledby="publications">
-      <div class="section-head"><h2 id="publications">Publications</h2></div>
-      <ul class="papers">
+    <section aria-labelledby="publications">
+      <h2 id="publications">Publications</h2>
+      <ul class="publications">
         <li>
-          <p class="paper-date">In preparation</p>
-          <div>
-            <h3>Asymptotic Independence of Solution-Free Constraints over Finite Fields.</h3>
-            <p class="authors">With Victor Souza.</p>
-          </div>
+          <p class="medium">Asymptotic Independence of Solution-Free Constraints over Finite Fields.</p>
+          <p class="note">With Victor Souza. <em>Manuscript under preparation.</em></p>
         </li>
         <li>
-          <time datetime="2026">2026</time>
-          <div>
-            <h3><a href="https://arxiv.org/abs/2610.41110">Deck Reconstruction for Restricted Word Classes.</a></h3>
-            <p class="authors">With Krishna Angal, Ruben Ascoli, Simon X. He, Xiaoyu He, Logan Post, and Olga Zhukova.</p>
-            <a class="paper-link" href="https://arxiv.org/abs/2610.41110">arXiv:2610.41110</a>
-          </div>
+          <p class="medium">Deck Reconstruction for Restricted Word Classes.</p>
+          <p class="note">With Krishna Angal, Ruben Ascoli, Simon X. He, Xiaoyu He, Logan Post, and Olga Zhukova.
+            <a href="https://arxiv.org/abs/2610.41110">arXiv:2610.41110</a> (2026).</p>
         </li>
         <li>
-          <time datetime="2026">2026</time>
-          <div>
-            <h3><a href="https://arxiv.org/abs/2609.14809">On Correspondences between the Alexander Polynomials of Special Alternating Links and MOY Graphs.</a></h3>
-            <p class="authors">With Leonardo Rodrigues de Medeiros.</p>
-            <a class="paper-link" href="https://arxiv.org/abs/2609.14809">arXiv:2609.14809</a>
-          </div>
+          <p class="medium">On Correspondences between the Alexander Polynomials of Special Alternating Links and MOY Graphs.</p>
+          <p class="note">With Leonardo Rodrigues de Medeiros.
+            <a href="https://arxiv.org/abs/2609.14809">arXiv:2609.14809</a> (2026).</p>
         </li>
       </ul>
     </section>
 
-    <section class="talks ruled" aria-labelledby="talks">
-      <div class="talk-list">
-        <div class="section-head"><h2 id="talks">Talks</h2></div>
-        <ul>
-          <li>
-            <time datetime="2026-10">October 2026</time>
-            <h3>Extremal Graph Theory and the Zarankiewicz Problem.</h3>
-            <p>Cornell University Mathematics Club (invited talk).</p>
-          </li>
-          <li>
-            <time datetime="2026-07">July 2026</time>
-            <h3>Deck Reconstruction for Restricted Word Classes.</h3>
-            <p>Georgia Institute of Technology, Mathematics REU end-of-program talk.</p>
-          </li>
-        </ul>
-      </div>
-      <figure class="incidence-plate" aria-labelledby="incidence-title">
-        <figcaption>
-          <h3 id="incidence-title">When is a four-cycle forced?</h3>
-          <p>Join each of the Fano plane’s seven points to the three lines through it. Every pair of points shares exactly one line, so the 21 edges avoid a four-cycle. A 22nd edge would force one.</p>
-        </figcaption>
-        <svg id="incidence-graph" viewBox="0 0 500 175" role="img" aria-label="The Fano plane incidence graph. One point and its three neighboring lines are highlighted.">
-          <use href="./assets/incidence.svg#incidence-base"></use>
-          <use id="incidence-highlight" href="./assets/incidence.svg#incidence-focus-1"></use>
-        </svg>
-        <div id="incidence-controls" hidden>
-          <span id="incidence-status" aria-live="polite" aria-atomic="true">Point 1 of 7</span>
-          <div class="point-buttons">
-            <button type="button" id="previous-point" aria-label="Previous point">Previous</button>
-            <button type="button" id="next-point" aria-label="Next point">Next</button>
-          </div>
-        </div>
-      </figure>
+    <section aria-labelledby="awards">
+      <h2 id="awards">Selected Awards &amp; Grants</h2>
+      <ul class="awards">
+        <li class="dated"><span>Resolution Project: Social Venture Challenge Grant ($10,000)</span><time datetime="2025">2025</time></li>
+        <li class="dated"><span>Cornell University: Summer Experience Grant ($4,000)</span><time datetime="2025">2025</time></li>
+        <li class="dated"><span>Columbia University: GROW Conference Grant ($500)</span><time datetime="2025">2025</time></li>
+        <li class="dated"><span>Cornell University: Summer Experience Grant ($3,800)</span><time datetime="2024">2024</time></li>
+        <li class="dated"><span>Columbia University: GROW Conference Grant ($500)</span><time datetime="2024">2024</time></li>
+      </ul>
     </section>
 
-    <section class="awards ruled" aria-labelledby="awards">
-      <div class="section-head"><h2 id="awards">Selected Awards &amp; Grants</h2></div>
-      <ul>
-        <li><time datetime="2025">2025</time><span>Resolution Project: Social Venture Challenge Grant</span><span class="amount">$10,000</span></li>
-        <li><time datetime="2025">2025</time><span>Cornell University: Summer Experience Grant</span><span class="amount">$4,000</span></li>
-        <li><time datetime="2025">2025</time><span>Columbia University: GROW Conference Grant</span><span class="amount">$500</span></li>
-        <li><time datetime="2024">2024</time><span>Cornell University: Summer Experience Grant</span><span class="amount">$3,800</span></li>
-        <li><time datetime="2024">2024</time><span>Columbia University: GROW Conference Grant</span><span class="amount">$500</span></li>
+    <section aria-labelledby="talks">
+      <h2 id="talks">Talks</h2>
+      <ul class="talks">
+        <li>
+          <p class="dated"><span class="medium">Extremal Graph Theory and the Zarankiewicz Problem.</span><time datetime="2026-10">October 2026</time></p>
+          <p class="detail">Cornell University Mathematics Club (invited talk).</p>
+        </li>
+        <li>
+          <p class="dated"><span class="medium">Deck Reconstruction for Restricted Word Classes.</span><time datetime="2026-07">July 2026</time></p>
+          <p class="detail">Georgia Institute of Technology, Mathematics REU end-of-program talk.</p>
+        </li>
       </ul>
+    </section>
+
+    <section aria-labelledby="contact">
+      <h2 id="contact">Contact</h2>
+      <p>Email: <a class="email" href="mailto:as3738@cornell.edu">as3738 at cornell dot edu</a></p>
     </section>
   </main>
 
-  <footer class="contact" aria-labelledby="contact">
-    <div class="wrap contact-inner">
-      <div>
-        <h2 id="contact">Contact</h2>
-        <a class="email" href="mailto:as3738@cornell.edu">as3738 at cornell dot edu</a>
-      </div>
-      <p>My name can also be spelled as Arkar Oak Soe, or <span lang="my">အာကာအုပ်စိုး</span> in Burmese.</p>
-    </div>
-  </footer>
+  <div class="figures" aria-hidden="true">
+    <img class="figure incidence" src="./assets/margin-incidence.svg" alt="">
+    <img class="figure plabic" src="./assets/margin-plabic.svg" alt="">
+    <img class="figure bipartite" src="./assets/margin-bipartite.svg" alt="">
+  </div>
 </body>
 </html>

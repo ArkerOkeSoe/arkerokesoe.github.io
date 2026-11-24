@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="230" viewBox="0 0 220 230" aria-hidden="true">
+  <defs>
+    <linearGradient id="plum-wash" x1="0" y1="1" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop stop-color="#e3d1e9"/>
+      <stop offset="1" stop-color="#f5eff7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- The dotted rim is the boundary of the disk. -->
+  <circle cx="110" cy="115" r="90" fill="none" stroke="#bda6c7"
+          stroke-width="1.2" stroke-dasharray="1.2 4.5" stroke-linecap="round"/>
+  <g id="spokes" fill="none" stroke="#9b7da8" stroke-width="1.85" stroke-linecap="round">
+    <path d="M99.65 70.18 Q99 47.7 89.75 27.31"/>
+    <path d="M144.65 80.35 Q163 69.7 173.64 51.36"/>
+    <path d="M154.45 122.04 Q175.7 131 198.89 129.08"/>
+    <path d="M127.92 161.68 Q129.5 182.5 142.25 199.02"/>
+    <path d="M79.22 149.18 Q60 161.5 49.78 181.88"/>
+    <path d="M61.9 105.65 Q42.8 96 21.65 97.83"/>
+  </g>
+  <polygon id="face" points="99.65,70.18 144.65,80.35 154.45,122.04 127.92,161.68 79.22,149.18 61.9,105.65"
+           fill="url(#plum-wash)" stroke="#704c7e" stroke-width="2.35" stroke-linejoin="round"/>
+
+  <g id="interior" stroke="#704c7e" stroke-width="2">
+    <g fill="#765285">
+      <circle cx="99.65" cy="70.18" r="5.6"/>
+      <circle cx="154.45" cy="122.04" r="5.6"/>
+      <circle cx="79.22" cy="149.18" r="5.6"/>
+    </g>
+    <g fill="#fff">
+      <circle cx="144.65" cy="80.35" r="5.6"/>
+      <circle cx="127.92" cy="161.68" r="5.6"/>
+      <circle cx="61.9" cy="105.65" r="5.6"/>
+    </g>
+  </g>
+  <g id="boundary" fill="#987aa4" stroke="white" stroke-width="1.25">
+    <circle cx="89.75" cy="27.31" r="3.95"/>
+    <circle cx="173.64" cy="51.36" r="3.95"/>
+    <circle cx="198.89" cy="129.08" r="3.95"/>
+    <circle cx="142.25" cy="199.02" r="3.95"/>
+    <circle cx="49.78" cy="181.88" r="3.95"/>
+    <circle cx="21.65" cy="97.83" r="3.95"/>
+  </g>
+</svg>
